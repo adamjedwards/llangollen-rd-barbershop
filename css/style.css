@@ -1,0 +1,22 @@
+body{
+    font-family: 'Outfit', sans-serif;
+}
+.container-fluid{
+    display: flex;
+}
+
+.landing-image{
+    height: 100vh;
+    background: url('../images/pexels-maria-orlova-4969842.jpg') no-repeat center center fixed;
+    max-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+}

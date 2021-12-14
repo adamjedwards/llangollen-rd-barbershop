@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d063ed7ade.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
@@ -134,52 +135,80 @@
   <!-- /service tables -->
   <!-- Opening times -->
 
-  <div class="container-fluid d-flex" id="opening-times-cont">
+  <div class="container-fluid d-flex " id="opening-times-cont">
     <div class="row ">
       <div class="col">
-        <h2>Opening Times</h2>
-        <table class="table table-borderless">
-          
-          <tbody>
-            <tr>
-              
-              <td>Monday</td>
-              <td>09:00 - 18.00</td>
-            </tr>
-            <tr>
-              
-              <td>Tuesday</td>
-              <td>09:00 - 18.00</td>
-            </tr>
-            <tr>
-              
-              <td>Wednesday</td>
-              <td>09:00 - 18.00</td>
-            </tr>
-            <tr>
-              
-              <td>Thursday</td>
-              <td>09:00 - 18.00</td>
-            </tr>
-            <tr>
-              
-              <td>Friday</td>
-              <td>09:00 - 18.00</td>
-            </tr>
-            <tr>
-              
-              <td>Saturday</td>
-              <td>09:00 - 18.00</td>
-            </tr>
-            <tr>
-              
-              <td>Sunday</td>
-              <td>Closed</td>
-            </tr>
-          </tbody>
-        </table>
+        <div id="opening-pos">
+          <h2>Opening Times</h2>
+          <table class="table table-borderless">
+
+            <tbody>
+              <tr>
+
+                <td>Monday</td>
+                <td>09:00 - 18.00</td>
+              </tr>
+              <tr>
+
+                <td>Tuesday</td>
+                <td>09:00 - 18.00</td>
+              </tr>
+              <tr>
+
+                <td>Wednesday</td>
+                <td>09:00 - 18.00</td>
+              </tr>
+              <tr>
+
+                <td>Thursday</td>
+                <td>09:00 - 18.00</td>
+              </tr>
+              <tr>
+
+                <td>Friday</td>
+                <td>09:00 - 18.00</td>
+              </tr>
+              <tr>
+
+                <td>Saturday</td>
+                <td>09:00 - 18.00</td>
+              </tr>
+              <tr>
+
+                <td>Sunday</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+      <div class="col d-sm-none d-md-block d-none d-sm-block">
+        <div class="tool-image">
+          <img src="images/pexels-josh-sorenson-995300.jpg">
+        </div>
       </div>
     </div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer-basic">
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/home.php" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <p>Llangollen Rd, Acrefair, Wrexham LL14 3SD</p>
+        </div>
+        <div class="col-4">
+          <p>Tel: 01978810000</p>
+        </div>
+      </div>
+    </footer>
   </div>
 
 
@@ -209,7 +238,7 @@
                   <br>
 
                   <div>
-                    <select class="custom-select my-1 mr-sm-2" id="choice-of-stylist">
+                    <select class="custom-select my-1 mr-sm-2" name="choice-of-stylist">
                       <option selected>Choose stylist</option>
                       <option value="alex">Alex</option>
                       <option value="elsie">Elsie</option>
@@ -223,16 +252,16 @@
                     <br>
                     <input type="time" name="time-of-appt" class="form-control" min="09:00" max="18:00" required>
                   </div>
-                    <br>
+                  <br>
                   <div>
-                    <select class="custom-select my-1 mr-sm-2" id="choice-of-service">
+                    <select class="custom-select my-1 mr-sm-2" name="choice-of-service">
                       <option selected>Service</option>
                       <option value="haircut-finish">Haircut & Finish</option>
                       <option value="skinfade">Skin Fade</option>
                       <option value="scissorcut">Scissor Cut</option>
                       <option value="beardandshave">Beard trim & Shave up</option>
                       <option value="haircutandbeard">Haircut & Beard Trim</option>
-                      
+
                     </select>
                   </div>
 
@@ -250,6 +279,8 @@
       </div>
     </div>
   </div>
+
+
 
 
 

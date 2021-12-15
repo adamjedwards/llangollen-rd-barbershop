@@ -1,17 +1,19 @@
-body{
+body {
     font-family: 'Outfit', sans-serif;
     margin: 0 auto;
     background-color: #FAF9F6;
 }
-.container-fluid{
+
+.container-fluid {
     display: flex;
 }
 
-.contents-header{
+.contents-header {
     text-align: center;
 }
+
 /* -------- images -------------*/
-.landing-image{
+.landing-image {
     height: 100vh;
     background: url('../images/pexels-maria-orlova-4969842.jpg') no-repeat center center fixed;
     max-width: 100%;
@@ -25,74 +27,113 @@ body{
     justify-content: center;
 }
 
-.tool-image img{
+.tool-image img {
     border-radius: 1%;
     margin-left: 60px;
     padding: 10px;
 }
 
-    /* -------Services------- */
+/* -------Services------- */
 
-    #service-container{
-        margin-top: 20px;
-        }
+#service-container {
+    margin-top: 20px;
+}
 
-    #opening-times-cont{
-        color: #FAF9F6;
-        background-color: #9F5B56;
-        
-    }
-    #opening-times-cont h2{
-        margin-top: 20px;
-        
-    }
+/* ------grid --------*/
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    #opening-pos{
-        margin-left: 30px;
-    }
-    
-    
-    .iframe-pos{
-        flex-wrap: wrap;
-    }
+.grid-span {
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
 
-    
-/* ----- footer ------- */
+.box {
+    max-width: 100%;
+    height: auto;
+    background-color: #9F5B56;
+    margin: 2%;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
+    color: #FAF9F6;
+    border-radius: 5px;
 
-.footer-basic {
-    padding: 20px ;
-    background-color: #FAF9F6;
-    color:#4b4c4d;
-  }
+}
 
-  .footer-basic .social {
-    text-align:center;
-    margin-bottom: 10px;
-   
-  }
-
-
-.footer-basic .social > a {
-    font-size:24px;
-    width:40px;
-    height:40px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
-    margin:0 20px;
-    color:inherit;
-    opacity:0.75;
-    
-  }
-
-  .footer-basic .social > a:hover {
-    opacity:0.9;
-  }
-.address{
-
-    text-align: center;
+.flex-wrap img {
+    display: inline;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-top: 55px;
 }
 
 
+/* -----  media queries ------- */
+@media (max-width: 500px) {
+    .box h2 {
+        text-align: center;
+    }
+
+    .grid-container {
+        max-width: 100%;
+        background-color: #9F5B56;
+        }
+
+    .box table {
+        text-align: center;
+    }
+
+    .flex-wrap img {
+        display: none
+
+    }.flex-wrap {
+        padding: 0px;
+    }
+}
+
+
+/* ----- footer ------- */
+
+.footer-basic {
+    padding: 20px;
+    background-color: #FAF9F6;
+    color: #4b4c4d;
+}
+
+.footer-basic .social {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 20px;
+    color: inherit;
+    opacity: 0.75;
+
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.address {
+
+    text-align: center;
+}

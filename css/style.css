@@ -27,11 +27,7 @@ body {
     justify-content: center;
 }
 
-.tool-image img {
-    border-radius: 1%;
-    margin-left: 60px;
-    padding: 10px;
-}
+
 
 /* -------Services------- */
 
@@ -44,6 +40,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #9F5B56;
 }
 
 .grid-span {
@@ -54,25 +51,19 @@ body {
 .box {
     max-width: 100%;
     height: auto;
-    background-color: #9F5B56;
+    background-color: #6C5E46;
     margin: 2%;
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 10px;
     color: #FAF9F6;
     border-radius: 5px;
-
 }
 
-.flex-wrap img {
-    display: inline;
-    height: auto;
-    max-width: 350px;
-    max-height: 350px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    margin-top: 55px;
+iframe {
+    margin-top: 20px;
 }
+
 
 
 /* -----  media queries ------- */
@@ -81,20 +72,33 @@ body {
         text-align: center;
     }
 
+    .box {
+        background-color: #9F5B56;
+    }
+
     .grid-container {
         max-width: 100%;
         background-color: #9F5B56;
-        }
+    }
 
     .box table {
         text-align: center;
     }
 
-    .flex-wrap img {
+    .flex-wrap iframe {
         display: none
+    }
 
-    }.flex-wrap {
+    .flex-wrap {
         padding: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .flex-wrap iframe {
+        width: 700px;
+        height: 200px;
+        margin: auto;
     }
 }
 
@@ -137,3 +141,28 @@ body {
 
     text-align: center;
 }
+
+/* ----- crew images ----- */
+.media img {
+    
+    max-width: 250px;
+    max-height: 250px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.media {
+    margin: 2%;
+    max-width: 100%;
+}
+
+.barber-bio {
+    padding: 40px;
+}
+
+#male-barber {
+    background-color: #9F5B56;
+    color: #FAF9F6;
+}
+
+

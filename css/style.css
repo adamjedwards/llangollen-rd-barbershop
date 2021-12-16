@@ -144,11 +144,12 @@ iframe {
 
 /* ----- crew images ----- */
 .media img {
-    
-    max-width: 250px;
-    max-height: 250px;
+    display: inline-flex;
+    max-width: 200px;
+    max-height: auto;
     padding: 20px;
     border-radius: 50px;
+   
 }
 
 .media {

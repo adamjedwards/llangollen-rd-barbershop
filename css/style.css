@@ -160,9 +160,21 @@ iframe {
     padding: 40px;
 }
 
-#male-barber {
+.male-barber {
     background-color: #9F5B56;
     color: #FAF9F6;
+    border-radius: 5px;
+    max-width: 100%;
 }
+
+/* ---- portfolio photos */
+
+#photos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 
 

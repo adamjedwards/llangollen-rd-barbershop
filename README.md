@@ -2,7 +2,7 @@
 
 Welcome adamjedwards,
 
-live page https://8000-beige-dodo-vafcq0x5.ws-eu23.gitpod.io/index.html
+
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 

@@ -41,7 +41,7 @@ When viewing on a mobile platform the description will not be didsplayed to make
 The footer will include external links to facebook, instagram and twitter, each link will open a new tab when opened. 
 
 
-* Wireframes
+# Wireframes
 
 ![Desktop booking form wireframe](assets/readme-images/desktop-bookingform.png) 
 ![mobile booking form wireframe](assets/readme-images/mobile-bookingform.png) 

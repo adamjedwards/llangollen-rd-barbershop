@@ -1,7 +1,7 @@
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: "Outfit", sans-serif;
     margin: 0 auto;
-    background-color: #FAF9F6;
+    background-color: #faf9f6;
 }
 
 .container-fluid {
@@ -15,7 +15,7 @@ body {
 /* -------- images -------------*/
 .landing-image {
     height: 100vh;
-    background: url('../images/pexels-maria-orlova-4969842.jpg') no-repeat center center fixed;
+    background: url("../images/pexels-maria-orlova-4969842.jpg") no-repeat center center fixed;
     max-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -27,7 +27,11 @@ body {
     justify-content: center;
 }
 
-
+.jumbotron-edit {
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
 
 /* -------Services------- */
 
@@ -40,7 +44,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #9F5B56;
+    background-color: #e6e0e0;
 }
 
 .grid-span {
@@ -51,20 +55,20 @@ body {
 .box {
     max-width: 100%;
     height: auto;
-    background-color: #6C5E46;
+
     margin: 2%;
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 10px;
-    color: #FAF9F6;
+
     border-radius: 5px;
 }
 
 iframe {
     margin-top: 20px;
+    width: 300px;
+    height: 400px;
 }
-
-
 
 /* -----  media queries ------- */
 @media (max-width: 500px) {
@@ -72,13 +76,9 @@ iframe {
         text-align: center;
     }
 
-    .box {
-        background-color: #9F5B56;
-    }
-
     .grid-container {
         max-width: 100%;
-        background-color: #9F5B56;
+        background-color: #e6e0e0;
     }
 
     .box table {
@@ -86,11 +86,34 @@ iframe {
     }
 
     .flex-wrap iframe {
-        display: none
+        display: none;
     }
 
     .flex-wrap {
         padding: 0px;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .lead {
+        display: none;
+    }
+    .nav-bar-brand {
+        font-size: 15px;
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    section img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -100,25 +123,32 @@ iframe {
         height: 200px;
         margin: auto;
     }
-}
 
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .media-btn {
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: small;
+    }
+}
 
 /* ----- footer ------- */
 
 .footer-basic {
     padding: 20px;
-    background-color: #FAF9F6;
+    background-color: #faf9f6;
     color: #4b4c4d;
 }
 
 .footer-basic .social {
     text-align: center;
     margin-bottom: 10px;
-
 }
 
-
-.footer-basic .social>a {
+.footer-basic .social > a {
     font-size: 24px;
     width: 40px;
     height: 40px;
@@ -130,52 +160,55 @@ iframe {
     margin: 0 20px;
     color: inherit;
     opacity: 0.75;
-
 }
 
-.footer-basic .social>a:hover {
+.footer-basic .social > a:hover {
     opacity: 0.9;
 }
 
 .address {
-
     text-align: center;
 }
 
 /* ----- crew images ----- */
+.box-mg {
+    margin: auto;
+}
+
 .media img {
     display: inline-flex;
     max-width: 200px;
     max-height: auto;
     padding: 20px;
-    border-radius: 50px;
-   
+    object-fit: contain;
 }
 
 .media {
-    margin: 2%;
-    max-width: 100%;
+    margin-top: 15px;
+    width: 100%;
 }
 
 .barber-bio {
-    padding: 40px;
+    padding: 30px;
+    margin-top: 15px;
 }
 
 .male-barber {
-    background-color: #9F5B56;
-    color: #FAF9F6;
+    background-color: #9f5b56;
+    color: #faf9f6;
     border-radius: 5px;
     max-width: 100%;
 }
 
 /* ---- portfolio photos */
 
-#photos{
+section {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: center;
 }
-
-
-
+section img {
+    object-fit: contain;
+    width: 33%;
+    height: 50%;
+}

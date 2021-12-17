@@ -7,11 +7,13 @@ The site will contain a booking form, a list of services that the barbershop wil
 
 Final Webpage design (https://adamjedwards.github.io/llangollen-rd-barbershop/)
 
-# Webpage Vaildation
+# Webpage Vaildation and Testing
 
 ![HTML Validation](assets/readme-images/htmlvalidator.png)
 
 ![CSS Validation](assets/readme-images/cssvalidator.png)
+
+Manual testing was done by checking each feature in a preview browser before pushing to githib. 
 
 # Features
 
@@ -34,5 +36,24 @@ When viewing on a mobile platform the description will not be didsplayed to make
 
 ![Viewing services on mobile](assets/readme-images/mobile-services.png)
 
-        
+* Footer
+
+The footer will include external links to facebook, instagram and twitter, each link will open a new tab when opened. 
+
+
+* Wireframes
+
+![Desktop booking form wireframe](assets/readme-images/desktop-bookingform.png) 
+![mobile booking form wireframe](assets/readme-images/mobile-bookingform.png) 
+
+As you can see I have changed my design from wireframe to live page. I think it was more user friendly and more intuitive to the user to use a modal function instead of on a separate page to access the booking form.
+
+# Resources 
+
+* To develop the site I used https://bootstrap.com v4.1 to set out the layout for each of the webpages.
+
+* All images to used from https://pexels.com
+
+* scissor image was imported from https://fontawesome.com/ 
+
 

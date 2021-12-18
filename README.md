@@ -3,6 +3,8 @@ Sitting the chair of my local barbershop I was telling the concept of the code i
 
 The site will contain a booking form, a list of services that the barbershop will provide along with a pricelist. a portfolio of images from the barbers clients and a page that introduces each of the members of staff. 
 
+The site will have a minimalist style with neutral colour scheme, I used http://colormind.io/bootstrap/ to chose my color scheme. 
+
 ![multi device mockup](assets/readme-images/multi-device-mockup.png)
 
 Final Webpage design (https://adamjedwards.github.io/llangollen-rd-barbershop/)
@@ -20,6 +22,8 @@ Manual testing was done by checking each feature in a preview browser before pus
 * navbar
 
 When landing on the webpage you will be introduced to a navbar which will include links to the home page, service, portfolio and each of the members of staff. 
+
+Added "position: fixed;" to navbar to improve navigation around the webpage. without a fixed navbar it felt as if there was too much scrolling to get around the site. 
 
 ![navbar](assets/readme-images/navbar.png)
 

@@ -36,6 +36,8 @@ The background image will include an overlay jumbotron imported using bootstrap,
 
 As you scroll down (or click Services tab) you will come across the services section. here you can see a pricelist and an explaination of each type of cut. When hovering over each service it will highlight across the table to make it more readable. 
 
+Changed the colour of the booking form button to match the colour of the barbers bio so the colour scheme is coherent throughout the page. 
+
 When viewing on a mobile platform the description will not be displayed to make it more readable. 
 
 * Crew member page

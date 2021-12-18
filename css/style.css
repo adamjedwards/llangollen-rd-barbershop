@@ -100,9 +100,11 @@ iframe {
     .lead {
         display: none;
     }
+
     .nav-bar-brand {
         font-size: 15px;
     }
+
     section {
         display: flex;
         flex-wrap: wrap;
@@ -148,7 +150,7 @@ iframe {
     margin-bottom: 10px;
 }
 
-.footer-basic .social > a {
+.footer-basic .social>a {
     font-size: 24px;
     width: 40px;
     height: 40px;
@@ -162,7 +164,7 @@ iframe {
     opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
+.footer-basic .social>a:hover {
     opacity: 0.9;
 }
 
@@ -178,19 +180,24 @@ iframe {
 .media img {
     display: inline-flex;
     max-width: 200px;
-   
-    padding: 20px;
+    margin-top: 30px;
     object-fit: contain;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .media {
     margin-top: 15px;
     width: 100%;
+    justify-content: center;
+    flex-wrap: wrap
 }
 
 .barber-bio {
     padding: 30px;
     margin-top: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-top: 30px
 }
 
 .male-barber {
@@ -207,6 +214,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 section img {
     object-fit: contain;
     width: 33%;

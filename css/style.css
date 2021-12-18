@@ -7,7 +7,7 @@ body {
 .sticky-navbar{
     position: fixed;
     z-index: 99;
-    width: 95%;
+    width: 100%;
 }
 
 .container-fluid {
@@ -122,6 +122,10 @@ iframe {
         object-fit: contain;
         width: 100%;
         height: auto;
+    }
+
+    .sticky-navbar{
+        width: 95%;
     }
 }
 

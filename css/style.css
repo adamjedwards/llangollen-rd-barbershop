@@ -18,6 +18,16 @@ body {
     text-align: center;
 }
 
+.btn-primary{
+    background-color: #9f5b56;
+    border-color: #9f5b56;
+}
+
+.btn-primary:hover{
+    background-color: #9f5b56;
+    border-color: #9f5b56;
+}
+
 /* -------- images -------------*/
 .landing-image {
     height: 100vh;

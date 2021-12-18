@@ -56,4 +56,6 @@ As you can see I have changed my design from wireframe to live page. I think it 
 
 * scissor image was imported from https://fontawesome.com/ 
 
+* CSS box-shadow used from https://getcssscan.com/css-box-shadow-examples
+
 

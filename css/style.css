@@ -4,7 +4,7 @@ body {
     background-color: #faf9f6;
 }
 
-.sticky-navbar{
+.sticky-navbar {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -18,12 +18,12 @@ body {
     text-align: center;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #9f5b56;
     border-color: #9f5b56;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #9f5b56;
     border-color: #9f5b56;
 }
@@ -134,7 +134,7 @@ iframe {
         height: auto;
     }
 
-    .sticky-navbar{
+    .sticky-navbar {
         width: 95%;
     }
 }

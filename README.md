@@ -70,4 +70,6 @@ As you can see I have changed my design from wireframe to live page. I think it 
 
 * CSS box-shadow used from https://getcssscan.com/css-box-shadow-examples
 
+* Footer template from https://www.web-eau.net/blog/10-best-footer-html-css-snippets 
+
 

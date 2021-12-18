@@ -15,6 +15,8 @@ Final Webpage design (https://adamjedwards.github.io/llangollen-rd-barbershop/)
 
 ![CSS Validation](assets/readme-images/cssvalidator.png)
 
+![Lighthouse Performance](images/lighthouse-performance.png)
+
 Manual testing was done by checking each feature in a preview browser before pushing to githib. 
 
 # Features

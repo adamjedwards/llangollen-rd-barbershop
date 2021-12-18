@@ -32,7 +32,11 @@ The background image will include an overlay jumbotron imported using bootstrap,
 
 As you scroll down (or click Services tab) you will come across the services section. here you can see a pricelist and an explaination of each type of cut. When hovering over each service it will highlight across the table to make it more readable. 
 
-When viewing on a mobile platform the description will not be didsplayed to make it more readable. 
+When viewing on a mobile platform the description will not be displayed to make it more readable. 
+
+* Crew member page
+
+Had problems with horizontal alignment of image and barber bio, could not be viewed on mobile without side scrolling. implemented flex-wrap so image and text is vertically stacked on mobile platform. 
 
 ![Viewing services on mobile](assets/readme-images/mobile-services.png)
 

@@ -4,6 +4,12 @@ body {
     background-color: #faf9f6;
 }
 
+.sticky-navbar{
+    position: fixed;
+    z-index: 99;
+    width: 95%;
+}
+
 .container-fluid {
     display: flex;
 }
